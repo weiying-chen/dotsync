@@ -17,7 +17,7 @@ alias gp='gen-posts'
 
 alias cr='codex resume'
 alias nd='npm run dev'
-alias rs='repo-sync --sync'
+alias rs='reposync --sync'
 
 alias v='view-task'
 alias vc='view-task --file tasks_coworkers.json'
