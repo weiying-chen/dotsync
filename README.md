@@ -1,4 +1,4 @@
-# sync
+# dotsync
 
 Barebones shell sync repo.
 
@@ -8,10 +8,11 @@ Barebones shell sync repo.
 
 ## Deploy
 ```sh
-~/shell/sync/sync.sh
+~/shell/dotsync/dotsync.sh
 ```
 
-Then reload your shell:
+Or use the deployed command:
 ```sh
+dotsync
 reloadsh
 ```

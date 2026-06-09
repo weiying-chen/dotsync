@@ -32,3 +32,6 @@ reloadsh() {
     return 1
   fi
 }
+
+
+alias ds='dotsync && reloadsh'
