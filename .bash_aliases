@@ -20,6 +20,7 @@ alias nd='npm run dev'
 alias rs='reposync --sync'
 
 alias v='view-task'
+alias vl='view-latest-task'
 alias vc='view-task --file tasks_coworkers.json'
 
 reloadsh() {
