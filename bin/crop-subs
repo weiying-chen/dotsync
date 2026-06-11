@@ -1,3 +1,1 @@
-#!/usr/bin/env bash
-set -euo pipefail
-exec python3 "$HOME/python/subs-tools/crop_subs.py" . "$@"
+../../../python/subs-tools/crop_subs.py
