@@ -3,6 +3,7 @@ alias ca='cd ~/node/aliveline'
 alias cap='cd ~/node/autopack'
 alias ct='cd ~/python/tasks'
 alias cw='cd ~/python/word'
+alias cn='cd ~/text/news'
 
 alias gs='gen-subs'
 alias ss='setup-subs'
