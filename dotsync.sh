@@ -17,24 +17,25 @@ for src in "$BIN_SRC"/*; do
     target="$(readlink -f "$src")"
     if [ ! -L "$dst" ] || [ "$(readlink -f "$dst")" != "$target" ]; then
       ln -sfn "$target" "$dst"
-      changes+=("bin/$name -> $target")
+      changes+=("[symlink] bin/$name -> $target")
     fi
   else
     if [ ! -e "$dst" ] || ! cmp -s "$src" "$dst"; then
       install -m 755 "$src" "$dst"
-      changes+=("bin/$name")
+      changes+=("[install] bin/$name")
     fi
   fi
 done
 
 if [ ! -e "$HOME/.bash_aliases" ] || ! cmp -s "$ROOT/.bash_aliases" "$HOME/.bash_aliases"; then
   cp "$ROOT/.bash_aliases" "$HOME/.bash_aliases"
-  changes+=(".bash_aliases")
+  changes+=("[copy] .bash_aliases")
 fi
 
 if [ "${#changes[@]}" -eq 0 ]; then
   echo "No file changes"
 else
-  echo "Updated: ${changes[*]}"
+  printf 'Updated:\n'
+  printf '%s\n' "${changes[@]}"
 fi
 echo "Run reloadsh"
