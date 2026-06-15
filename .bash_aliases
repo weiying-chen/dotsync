@@ -15,6 +15,7 @@ alias sn='setup-news'
 alias wn='watchpick --type news'
 
 alias gp='gen-posts'
+alias hs='highlight-posts'
 
 alias cr='codex resume'
 alias nd='npm run dev'
