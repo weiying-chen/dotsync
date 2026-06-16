@@ -7,6 +7,7 @@ alias cn='cd ~/text/news'
 
 alias gs='gen-subs'
 alias ss='setup-subs'
+alias csub='clean-subs'
 alias ws='watchpick --has-baseline --max-cps 16 --min-cps 5'
 
 alias gn='gen-news'
