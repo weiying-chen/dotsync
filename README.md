@@ -6,6 +6,10 @@ Barebones shell sync repo.
 - `bin/` -> deploys to `~/.local/bin/`
 - `.bash_aliases` -> deploys to `~/.bash_aliases`
 
+Current post shortcuts after sync:
+- `gp` -> `gen-posts`
+- `fp` -> `finalize-posts`
+
 ## Deploy
 ```sh
 ~/shell/dotsync/dotsync.sh
