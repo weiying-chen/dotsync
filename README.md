@@ -21,6 +21,5 @@ Current subtitle shortcuts after sync:
 
 Or use the deployed command:
 ```sh
-dotsync
-reloadsh
+d
 ```

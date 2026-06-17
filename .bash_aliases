@@ -38,4 +38,4 @@ reloadsh() {
 }
 
 
-alias ds='dotsync && reloadsh'
+alias d='dotsync && reloadsh'
