@@ -10,6 +10,10 @@ Current post shortcuts after sync:
 - `gp` -> `gen-posts`
 - `fp` -> `finalize-posts`
 
+Current subtitle shortcuts after sync:
+- `csub` -> `clean-subs`
+- `fs` -> `finalize-subs`
+
 ## Deploy
 ```sh
 ~/shell/dotsync/dotsync.sh
