@@ -3,8 +3,11 @@
 Barebones shell sync repo.
 
 ## Source of truth
-- `bin/` -> deploys to `~/.local/bin/`
+- `bin/` -> symlinks that deploy to `~/.local/bin/`
 - `.bash_aliases` -> deploys to `~/.bash_aliases`
+- `tmux/tmux.conf` -> deploys to `~/.tmux.conf`
+
+`bin/dotsync` is a symlink to `dotsync.sh`, so the installed `dotsync` command always runs the repo copy.
 
 Current post shortcuts after sync:
 - `gp` -> `gen-posts`
