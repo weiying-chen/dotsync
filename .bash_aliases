@@ -17,6 +17,7 @@ alias sn='setup-news'
 alias wn='watchpick --type news'
 
 alias gp='gen-posts'
+alias gso='gen-sources'
 alias fp='finalize-posts'
 
 alias cr='codex resume'
