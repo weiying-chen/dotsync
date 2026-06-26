@@ -1,5 +1,4 @@
 alias cs='cd ~/node/sub'
-alias ca='cd ~/node/aliveline'
 alias cap='cd ~/node/autopack'
 alias ct='cd ~/python/tasks'
 alias cw='cd ~/python/word'
