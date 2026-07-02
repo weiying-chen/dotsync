@@ -8,7 +8,7 @@ alias gs='gen-subs'
 alias ss='setup-subs'
 alias csub='clean-subs'
 alias fs='finalize-subs'
-alias ws='watchpick --has-baseline --max-cps 16 --min-cps 5'
+alias ws='watchpick --type subs'
 
 alias gn='gen-news'
 alias rn='rename-news'
